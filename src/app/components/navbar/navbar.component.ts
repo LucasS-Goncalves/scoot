@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -8,6 +8,15 @@ import { Component } from '@angular/core';
 export class NavbarComponent {
 
   openedMenu = false;
+  innerWidth: any;
+
+  @HostListener('window:resize', ['$event'])
+  onResize(){
+    this.innerWidth = window.innerWidth;
+    if(this.innerWidth < 768 && this.openedMenu === true){
+      this.openedMenu = false;
+    }
+  }
 
   openMenu(){
     this.openedMenu = !this.openedMenu;
