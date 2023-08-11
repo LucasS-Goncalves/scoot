@@ -3,7 +3,10 @@ import { Component, HostListener } from '@angular/core';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  styleUrls: [
+    './navbar.component.css',
+    './styles/main-img-section.css'
+  ]
 })
 export class NavbarComponent {
 
@@ -13,7 +16,7 @@ export class NavbarComponent {
   @HostListener('window:resize', ['$event'])
   onResize(){
     this.innerWidth = window.innerWidth;
-    if(this.innerWidth < 768 && this.openedMenu === true){
+    if(this.innerWidth > 767 && this.openedMenu === true){
       this.openedMenu = false;
     }
   }

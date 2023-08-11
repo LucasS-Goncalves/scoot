@@ -20,3 +20,16 @@
   </nav>
   <div class="overlay" (click)="openMenu()"></div>
 </header>
+
+<main>
+  <section class="main_img_section">
+    <div class="img_container">
+      <picture>
+        <source media="(max-width: 767px)" srcset="../../../assets/images/home-hero-mobile.jpg">
+        <source media="(max-width: 1199px)" srcset="../../../assets/images/home-hero-tablet.jpg">
+        <source media="(min-width: 1200px)" srcset="../../../assets/images/home-hero-desktop.jpg">
+        <img src="../../../assets/images/home-hero-mobile.jpg" alt="scooter" class="image">
+      </picture>
+    </div>
+  </section>
+</main>
