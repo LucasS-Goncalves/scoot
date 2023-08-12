@@ -81,7 +81,15 @@
   display: none;
 }
 
+.line-container{
+  display: none;
+}
+
 @media(min-width: 768px){
+
+  .main{
+    padding-top: 96px;
+  }
 
   .main_img_section-content{
     top: 25%;
@@ -103,6 +111,12 @@
   .main_img_section-content .main_img_section-description{
     width: 573px;
     line-height: 25px;
+  }
+
+  .main_img_section-content .yellow_button{
+    align-self: flex-start;
+    margin-top: .2rem;
+    margin-left: 6rem;
   }
 
   .rightArrow-container{
@@ -127,3 +141,64 @@
   }
 
 }
+
+@media(min-width: 1200px){
+
+  .main_img_section-content{
+    top: 22%;
+    left: 35%;
+    align-items: flex-end;
+    gap: 2.5rem;
+    text-align: start;
+  }
+
+  .main_img_section-content .main_img_section-title{
+    width: 500px;
+  }
+
+  .main_img_section-content .main_img_section-description{
+    width: 405px;
+  }
+
+  .line-container{
+    display: block;
+    position: absolute;
+    bottom: 44%;
+    left: 0;
+  }
+
+  .line-container .line{
+    width: 100%;
+    height: 100%;
+  }
+
+  .rightArrow-container{
+    width: 320px;
+    height: 149px;
+    left: 56%;
+    bottom: 24%;
+  }
+
+  .rightArrow-container .rightArrow{
+    object-fit: none;
+    object-position: right;
+  }
+
+  .whiteCircles-container{
+    width: 190px;
+    bottom: 26%;
+  }
+}
+
+@media(min-width: 1440px){
+
+  .rightArrow-container{
+    width: 446px;
+    left: 54%;
+  }
+
+  .rightArrow-container .rightArrow{
+    object-position: initial;
+  }
+}
+
