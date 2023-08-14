@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 8rem;
+  transition: .3s;
 }
 
 .benefits_list{
@@ -12,6 +13,7 @@
   flex-direction: column;
   align-items: center;
   gap: 4rem;
+  transition: .3s;
 }
 
 .benefits_list .benefit{
@@ -20,12 +22,14 @@
   flex-direction: column;
   align-items: center;
   gap: 3rem;
+  transition: .3s;
 }
 
 .benefits_list .benefit .img_container{
   width: 311px;
   height: 311px;
   position: relative;
+  transition: .3s;
 }
 
 .benefits_list .benefit .img_container .benefit_img{
@@ -40,6 +44,7 @@
   align-items: center;
   gap: 2rem;
   text-align: center;
+  transition: .3s;
 }
 
 .benefits_list .benefit .benefit_info .benefit_title{
@@ -49,6 +54,7 @@
   line-height: 32px;
   letter-spacing: -1.43px;
   color: var(--dark-navy);
+  transition: .3s;
 }
 
 .benefits_list .benefit .benefit_info .benefit_description{
@@ -78,6 +84,7 @@
   height: 148px;
   top: 53%;
   right: -32px;
+  transition: .3s;
 }
 
 .benefits_list .benefit:first-child .img_container .arrow_div .arrow{
@@ -93,6 +100,7 @@
   height: 148px;
   top: 0%;
   left: -32px;
+  transition: .3s;
 }
 
 .benefits_list .benefit:nth-child(even) .img_container .arrow_div .arrow{
@@ -108,6 +116,7 @@
   height: 148px;
   top: 0%;
   right: -32px;
+  transition: .3s;
 }
 
 .benefits_list .benefit:nth-child(odd):not(:first-child) .img_container .arrow_div .arrow{
@@ -167,6 +176,7 @@
     position: absolute;
     right: 0;
     z-index: -1;
+    transition: .3s;
   }
 
   .benefits_list .benefit:nth-child(odd) .ball_div .ball{
