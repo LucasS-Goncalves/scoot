@@ -202,4 +202,75 @@
   }
 }
 
+@media(min-width: 1200px){
+
+  .benefits_list{
+    gap: 10rem;
+  }
+
+  .benefits_list .benefit:nth-child(odd){
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .benefits_list .benefit:nth-child(even){
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .benefits_list .benefit .benefit_info{
+    width: 445px;
+    align-items: flex-start;
+    gap: 3rem;
+    text-align: start;
+  }
+
+  .benefits_list .benefit .benefit_info .benefit_title{
+    width: 445px;
+  }
+
+  .benefits_list .benefit:first-child .img_container .arrow_div{
+    right: -115px;
+  }
+
+  .benefits_list .benefit:nth-child(even) .img_container .arrow_div{
+    width: 340px;
+    left: -145px;
+  }
+
+  .benefits_list .benefit:nth-child(odd):not(:first-child) .img_container .arrow_div{
+    width: 340px;
+    top: 16%;
+    right: -115px;
+  }
+}
+
+@media(min-width: 1440px){
+
+  .benefits_list .benefit:nth-child(odd){
+    gap: 15rem;
+  }
+
+  .benefits_list .benefit:nth-child(even){
+    gap: 15rem;
+  }
+
+  .benefits_list .benefit:first-child .img_container .arrow_div{
+    right: -155px;
+  }
+
+  .benefits_list .benefit:nth-child(even) .img_container .arrow_div{
+    width: 345px;
+    left: -155px;
+  }
+
+  .benefits_list .benefit:nth-child(odd):not(:first-child) .img_container .arrow_div{
+    width: 355px;
+    top: 16%;
+    right: -155px;
+  }
+}
+
 
