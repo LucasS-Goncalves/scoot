@@ -59,4 +59,34 @@
     <div class="greyLine"></div>
   </section>
 
+  <section class="benefits_section">
+    <ul class="benefits_list">
+      <li class="benefit" *ngFor="let benefit of benefits">
+        <div class="img_container">
+          <img [src]="benefit.imgSrc" alt="" class="benefit_img">
+        </div>
+
+        <article class="benefit_info">
+          <h2 class="benefit_title">
+            {{benefit.title}}
+          </h2>
+          <p class="benefit_description">
+            {{benefit.description}}
+          </p>
+          <button class="yellow_button">
+            Learn More
+          </button>
+        </article>
+
+        <div class="arrow_div">
+          <img [src]="benefit.arrow" alt="" class="arrow">
+        </div>
+
+        <div class="ball_div">
+          <img [src]="benefit.ball" alt="" class="ball">
+        </div>
+      </li>
+    </ul>
+  </section>
+
 </main>
