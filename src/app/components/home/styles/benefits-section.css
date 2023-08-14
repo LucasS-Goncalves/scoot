@@ -20,12 +20,12 @@
   flex-direction: column;
   align-items: center;
   gap: 3rem;
-  position: relative;
 }
 
 .benefits_list .benefit .img_container{
   width: 311px;
   height: 311px;
+  position: relative;
 }
 
 .benefits_list .benefit .img_container .benefit_img{
@@ -71,23 +71,23 @@
   color: var(--white);
 }
 
-.benefits_list .benefit:first-child .arrow_div{
+.benefits_list .benefit:first-child .img_container .arrow_div{
   display: block;
   position: absolute;
   width: 340px;
   height: 148px;
-  top: 25%;
+  top: 53%;
   right: -32px;
 }
 
-.benefits_list .benefit:first-child .arrow_div .arrow{
+.benefits_list .benefit:first-child .img_container .arrow_div .arrow{
   width: 100%;
   height: 100%;
   object-fit: none;
   object-position: left;
 }
 
-.benefits_list .benefit:nth-child(even) .arrow_div{
+.benefits_list .benefit:nth-child(even) .img_container .arrow_div{
   position: absolute;
   width: 250px;
   height: 148px;
@@ -95,14 +95,14 @@
   left: -32px;
 }
 
-.benefits_list .benefit:nth-child(even) .arrow_div .arrow{
+.benefits_list .benefit:nth-child(even) .img_container .arrow_div .arrow{
   width: 100%;
   height: 100%;
   object-fit: none;
   object-position: right;
 }
 
-.benefits_list .benefit:nth-child(odd):not(:first-child) .arrow_div{
+.benefits_list .benefit:nth-child(odd):not(:first-child) .img_container .arrow_div{
   position: absolute;
   width: 250px;
   height: 148px;
@@ -110,17 +110,96 @@
   right: -32px;
 }
 
-.benefits_list .benefit:nth-child(odd):not(:first-child) .arrow_div .arrow{
+.benefits_list .benefit:nth-child(odd):not(:first-child) .img_container .arrow_div .arrow{
   width: 100%;
   height: 100%;
   object-fit: none;
   object-position: left;
 }
 
-
-
 .benefits_list .benefit .ball_div{
   display: none;
+}
+
+@media(min-width:768px){
+
+  .benefits_section{
+    margin-top: 9rem;
+  }
+
+  .benefits_list{
+    width: 100%;
+    gap: 8rem;
+  }
+
+  .benefits_list .benefit{
+    gap: 4rem;
+    position: relative;
+  }
+
+  .benefits_list .benefit .img_container{
+    width: 445px;
+    height: 445px;
+  }
+
+  .benefits_list .benefit .benefit_info{
+    width: 573px;
+    gap: 3rem;
+  }
+
+  .benefits_list .benefit .benefit_info .benefit_title{
+    width: 457px;
+    font-size: 3rem;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+  }
+
+  .benefits_list .benefit:first-child .img_container .arrow_div{
+    width: 734px;
+    top: 68%;
+    right: -161px;
+  }
+
+  .benefits_list .benefit:nth-child(odd) .ball_div{
+    width: 87px;
+    height: 445px;
+    display: block;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+  }
+
+  .benefits_list .benefit:nth-child(odd) .ball_div .ball{
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    object-position: left;
+  }
+
+  .benefits_list .benefit:nth-child(even) .img_container .arrow_div{
+    width: 370px;
+  }
+
+  .benefits_list .benefit:nth-child(even) .ball_div{
+    width: 445px;
+    height: 445px;
+    display: block;
+    position: absolute;
+    left: -358px;
+    z-index: -1;
+  }
+
+  .benefits_list .benefit:nth-child(even) .ball_div .ball{
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    object-position: left;
+  }
+
+  .benefits_list .benefit:nth-child(odd):not(:first-child) .img_container .arrow_div{
+    width: 370px;
+    top: 9%;
+  }
 }
 
 

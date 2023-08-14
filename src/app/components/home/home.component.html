@@ -64,6 +64,9 @@
       <li class="benefit" *ngFor="let benefit of benefits">
         <div class="img_container">
           <img [src]="benefit.imgSrc" alt="" class="benefit_img">
+          <div class="arrow_div">
+            <img [src]="benefit.arrow" alt="" class="arrow">
+          </div>
         </div>
 
         <article class="benefit_info">
@@ -77,10 +80,6 @@
             Learn More
           </button>
         </article>
-
-        <div class="arrow_div">
-          <img [src]="benefit.arrow" alt="" class="arrow">
-        </div>
 
         <div class="ball_div">
           <img [src]="benefit.ball" alt="" class="ball">
