@@ -42,4 +42,21 @@
 
   </section>
 
+  <section class="steps_section">
+    <ul class="steps_list">
+      <li class="step" *ngFor="let step of steps">
+        <img [src]="step.iconSrc" alt="" class="step_icon">
+        <article class="step_info">
+          <h2 class="step_title">
+            {{step.title}}
+          </h2>
+          <p class="step_description">
+            {{step.description}}
+          </p>
+        </article>
+      </li>
+    </ul>
+    <div class="greyLine"></div>
+  </section>
+
 </main>
