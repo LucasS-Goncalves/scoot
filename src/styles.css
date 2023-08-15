@@ -20,6 +20,7 @@ p,h1,h2,h3,h4,h5,h6{
   --black: hsl(0, 0%, 0%);
   --white: hsl(0,100%,100%);
   --yellow: hsl(40, 97%, 58%);
+  --super-dark-blue: #333A44;
   --dark-navy: hsl(216, 17%, 35%);
   --dark-cyan-blue: #333A44;
   --dim-grey: hsl(217, 12%, 62%);
