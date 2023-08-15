@@ -61,6 +61,7 @@
   border-radius: 3px;
   font-family: var(--space-mono);
   color: var(--dark-navy);
+  background-color: var(--light-grey);
 }
 
 .signUp .buttons_div .button p {
@@ -127,4 +128,35 @@
 .links .socialMedias_list .socialMedia button{
   background: transparent;
   border: none;
+}
+
+@media(min-width: 768px){
+
+  .signUp{
+    height: 300px;
+  }
+
+  .signUp .title{
+    width: 457px;
+    font-size: 3rem;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+  }
+
+  .links{
+    height: 96px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .links .logo_links_container{
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .links .logo_links_container .links_list{
+    flex-direction: row;
+    gap: 2.2rem;
+  }
 }
