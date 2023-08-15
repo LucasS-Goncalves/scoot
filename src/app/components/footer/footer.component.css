@@ -160,3 +160,17 @@
     gap: 2.2rem;
   }
 }
+
+@media(min-width: 1200px){
+
+  .signUp{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .signUp .title{
+    width: 415px;
+    text-align: start;
+  }
+}
