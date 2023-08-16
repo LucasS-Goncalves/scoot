@@ -41,4 +41,31 @@
       <img src="../../../assets/patterns/circle.svg" alt="" class="ball">
     </div>
   </section>
+
+  <section class="joinUs_section">
+    <h2 class="joinUs_section_title">
+      Why join us?
+    </h2>
+    <ul class="reasons_list">
+      <li class="reason" *ngFor="let reason of reasons">
+
+        <div class="reason_img_container">
+          <img [src]="reason.img" alt="" class="reason_img">
+          <div class="number">
+            {{reason.number}}
+          </div>
+        </div>
+
+        <article class="reason_info">
+          <h3 class="reason_title">
+            {{reason.title}}
+          </h3>
+          <p class="reason_description">
+            {{reason.description}}
+          </p>
+        </article>
+
+      </li>
+    </ul>
+  </section>
 </main>
