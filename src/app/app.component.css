@@ -5,6 +5,7 @@
 
 .pages_container{
   padding-top: 64px;
+  margin-bottom: 8rem;
 }
 
 @media(min-width: 768px){

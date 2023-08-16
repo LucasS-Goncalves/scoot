@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 8rem;
+  transition: .3s;
 }
 
 .jobs_list{
@@ -12,6 +13,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1.2rem;
+  transition: .3s;
 }
 
 .jobs_list .job{
@@ -23,11 +25,13 @@
   justify-content: center;
   gap: 1.2rem;
   background-color: var(--light-grey);
+  transition: .3s;
 }
 
 .jobs_list .job .job_info{
   text-align: center;
   color: var(--dark-navy);
+  transition: .3s;
 }
 
 .jobs_list .job .job_info .job_title{
@@ -37,6 +41,7 @@
   line-height: 24px;
   letter-spacing: -.8px;
   margin-bottom: .5rem;
+  transition: .3s;
 }
 
 .jobs_list .job .job_info .place{
@@ -56,6 +61,7 @@
   border: none;
   color: var(--white);
   background-color: var(--yellow);
+  transition: .3s;
 }
 
 @media(min-width: 768px){
