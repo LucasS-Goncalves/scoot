@@ -82,3 +82,24 @@
   line-height: 25px;
   color: var(--dim-grey);
 }
+
+@media(min-width: 768px){
+
+  .joinUs_section{
+    gap: 7rem;
+  }
+
+  .joinUs_section_title{
+    font-size: 3rem;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+  }
+
+  .reasons_list{
+    gap: 4rem;
+  }
+
+  .reasons_list .reason .reason_info .reason_description{
+    width: 457px;
+  }
+}
