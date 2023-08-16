@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
     './careers.component.css',
     './styles/main-img-section.css',
     './styles/mission-section.css',
-    './styles/joinUs-section.css'
+    './styles/joinUs-section.css',
+    './styles/jobs-section.css'
   ]
 })
 export class CareersComponent {
@@ -31,5 +32,33 @@ export class CareersComponent {
       title: 'Our community',
       description: 'We support every community we serve. All workers are paid a living wage based on their location and are Scoot employees.'
     },
+  ];
+
+  jobs = [
+    {
+      title: 'General Manager',
+      place: 'Jakarta, Indonesia',
+    },
+    {
+      title: 'UI/UX Designer',
+      place: 'Yokohama, Japan',
+    },
+    {
+      title: 'Blog Content Copywriter',
+      place: 'New York, United States',
+    },
+    {
+      title: 'Graphic Designer',
+      place: 'New York, United States',
+    },
+    {
+      title: 'Fleet Supervisor',
+      place: 'Jakarta, Indonesia',
+    },
+    {
+      title: 'UX Analyst',
+      place: 'London, United Kingdom',
+    },
+
   ]
 }

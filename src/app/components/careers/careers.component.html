@@ -68,4 +68,23 @@
       </li>
     </ul>
   </section>
+
+  <section class="jobs_section">
+    <ul class="jobs_list">
+      <li class="job" *ngFor="let job of jobs">
+        <article class="job_info">
+          <h4 class="job_title">
+            {{job.title}}
+          </h4>
+          <p class="place">
+            {{job.place}}
+          </p>
+        </article>
+
+        <button class="yellow_button">
+          Apply
+        </button>
+      </li>
+    </ul>
+  </section>
 </main>
