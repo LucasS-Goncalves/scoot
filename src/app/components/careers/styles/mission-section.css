@@ -7,6 +7,7 @@
   gap: 3rem;
   margin-top: 5rem;
   transition: .3s;
+  position: relative;
 }
 
 .mission_img_container{
@@ -76,4 +77,56 @@
   height: 100%;
   object-fit: none;
   object-position: left;
+}
+
+.ball_div{
+  display: none;
+}
+
+@media(min-width: 768px){
+
+  .mission_section{
+    margin-top: 7rem;
+  }
+
+  .mission_img_container{
+    width: 445px;
+    height: 445px;
+  }
+
+  .mission_info{
+    width: 573px;
+    gap: 3rem;
+  }
+
+  .mission_info .mission_title{
+    width: 457px;
+    font-size: 3rem;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+  }
+
+  .mission_img_container .arrow_div{
+    width: 734px;
+    top: 68%;
+    right: -161px;
+  }
+
+  .ball_div{
+    width: 87px;
+    height: 445px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: .3s;
+  }
+
+  .ball_div .ball{
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    object-position: left;
+  }
 }
