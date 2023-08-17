@@ -175,4 +175,21 @@
     width: 415px;
     text-align: start;
   }
+
+  .signUp .buttons_div .button,
+  .links .logo_links_container .logo,
+  .links .socialMedias_list .socialMedia button,
+  .links .socialMedias_list .socialMedia button:hover svg path,
+  .links .logo_links_container .links_list .link{
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .links .logo_links_container .links_list .link:hover{
+    color: var(--yellow);
+  }
+
+  .links .socialMedias_list .socialMedia button:hover svg path{
+    fill: var(--white);
+  }
 }
