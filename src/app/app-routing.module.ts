@@ -1,3 +1,4 @@
+import { LocationsComponent } from './components/locations/locations.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -10,6 +11,9 @@ const routes: Routes = [
   },
   {
     path: 'careers', component: CareersComponent
+  },
+  {
+    path: 'locations', component: LocationsComponent
   }
 ];
 
