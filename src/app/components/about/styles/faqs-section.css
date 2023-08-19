@@ -60,7 +60,11 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1.5rem;
+  gap: 0;
+}
+
+.faqs_categories_list .faqs_category .faqs_questions_lists .question_li.questionOpened .faqs_texts{
+  gap: 1.5rem
 }
 
 .faqs_categories_list .faqs_category .faqs_questions_lists .question_li .faqs_texts .faqs_question{
@@ -79,6 +83,13 @@
   font-weight: 400;
   line-height: 25px;
   color: var(--dark-navy);
+  height: 0;
+  visibility: hidden;
+}
+
+.faqs_categories_list .faqs_category .faqs_questions_lists .question_li.questionOpened .faqs_texts .faqs_answer{
+  height: auto;
+  visibility: visible;
 }
 
 .faqs_categories_list .faqs_category .faqs_questions_lists .question_li .chevron_container{
@@ -132,5 +143,34 @@
   .faqs_categories_list .faqs_category .faqs_questions_lists .question_li .chevron_container{
     top: 35px;
     right: 30px;
+  }
+}
+
+@media(min-width: 1200px){
+
+  .faqs_section{
+    gap: 4.3rem;
+  }
+
+  .faqs_categories_list{
+    gap: 4rem;
+  }
+
+  .faqs_categories_list .faqs_category{
+    width: 1110px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .faqs_categories_list .faqs_category .faqs_questions_lists .question_li{
+    width: 730px;
+    padding: 1.8rem 2.5rem;
+    transition: .2s;
+    cursor: pointer;
+  }
+
+  .faqs_categories_list .faqs_category .faqs_questions_lists .question_li:hover{
+    background-color: var(--light-yellow);
   }
 }

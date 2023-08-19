@@ -99,7 +99,7 @@
           {{faqsCategory.questionSubject}}
         </h3>
         <ul class="faqs_questions_lists">
-          <li class="question_li" *ngFor="let question of faqsCategory.questions">
+          <li class="question_li" #question *ngFor="let question of faqsCategory.questions">
             <article class="faqs_texts">
               <h4 class="faqs_question">
                 {{question.question}}
