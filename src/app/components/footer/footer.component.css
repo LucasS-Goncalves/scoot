@@ -112,12 +112,13 @@
   gap: 1.5rem;
 }
 
-.links .logo_links_container .links_list .link{
+.links .logo_links_container .links_list .link a{
   font-size: .9375rem;
   font-family: var(--space-mono);
   font-weight: 700;
   line-height: 25px;
   color: var(--dim-grey);
+  text-decoration: none;
 }
 
 .links .socialMedias_list{
@@ -127,9 +128,8 @@
   gap: 1.5rem;
 }
 
-.links .socialMedias_list .socialMedia button{
-  background: transparent;
-  border: none;
+.links .socialMedias_list .socialMedia a{
+  text-decoration: none;
 }
 
 @media(min-width: 768px){
@@ -178,18 +178,18 @@
 
   .signUp .buttons_div .button,
   .links .logo_links_container .logo,
-  .links .socialMedias_list .socialMedia button,
-  .links .socialMedias_list .socialMedia button:hover svg path,
-  .links .logo_links_container .links_list .link{
+  .links .socialMedias_list .socialMedia a,
+  .links .socialMedias_list .socialMedia a:hover svg path,
+  .links .logo_links_container .links_list .link a{
     cursor: pointer;
     transition: .3s;
   }
 
-  .links .logo_links_container .links_list .link:hover{
+  .links .logo_links_container .links_list .link:hover a{
     color: var(--yellow);
   }
 
-  .links .socialMedias_list .socialMedia button:hover svg path{
+  .links .socialMedias_list .socialMedia a:hover svg path{
     fill: var(--white);
   }
 }

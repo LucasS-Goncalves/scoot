@@ -71,6 +71,7 @@
   font-weight: 700;
   line-height: 25px;
   color: var(--light-grey);
+  text-decoration: none;
 }
 
 .nav .yellow_button{

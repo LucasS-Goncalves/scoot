@@ -19,6 +19,9 @@ const routes: Routes = [
   {
     path: 'locations', component: LocationsComponent
   },
+  {
+    path: '**', redirectTo: ''
+  }
 ];
 
 @NgModule({
