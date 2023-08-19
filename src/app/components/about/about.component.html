@@ -88,4 +88,33 @@
       </li>
     </ul>
   </section>
+
+  <section class="faqs_section">
+    <h2 class="faqs_section_title">
+      FAQs
+    </h2>
+    <ul class="faqs_categories_list">
+      <li class="faqs_category" *ngFor="let faqsCategory of faqs">
+        <h3 class="question_subject">
+          {{faqsCategory.questionSubject}}
+        </h3>
+        <ul class="faqs_questions_lists">
+          <li class="question_li" *ngFor="let question of faqsCategory.questions">
+            <article class="faqs_texts">
+              <h4 class="faqs_question">
+                {{question.question}}
+              </h4>
+              <p class="faqs_answer">
+                {{question.answer}}
+              </p>
+            </article>
+            <div class="chevron_container">
+              <img src="../../../assets/icons/chevron.svg" alt="" class="chevron">
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
 </main>

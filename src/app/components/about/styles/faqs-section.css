@@ -1,0 +1,93 @@
+.faqs_section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 9rem;
+}
+
+.faqs_section_title{
+  font-size: 2rem;
+  font-family: var(--space-mono);
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -1.43px;
+  color: var(--dark-navy);
+}
+
+.faqs_categories_list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.faqs_categories_list .faqs_category{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.faqs_categories_list .faqs_category .question_subject{
+  font-size: 1.5rem;
+  font-family: var(--space-mono);
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.07px;
+  color: var(--dark-navy);
+}
+
+.faqs_categories_list .faqs_category .faqs_questions_lists{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.faqs_categories_list .faqs_category .faqs_questions_lists .question_li{
+  width: 311px;
+  position: relative;
+  background-color: var(--light-grey);
+  padding: 1.8rem;
+}
+
+.faqs_categories_list .faqs_category .faqs_questions_lists .question_li .faqs_texts{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.faqs_categories_list .faqs_category .faqs_questions_lists .question_li .faqs_texts .faqs_question{
+  width: 219px;
+  font-size: 1.125rem;
+  font-family: var(--space-mono);
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -.8px;
+  color: var(--dark-navy);
+}
+
+.faqs_categories_list .faqs_category .faqs_questions_lists .question_li .faqs_texts .faqs_answer{
+  font-size: .9375rem;
+  font-family: var(--lexend-deca);
+  font-weight: 400;
+  line-height: 25px;
+  color: var(--dark-navy);
+}
+
+.faqs_categories_list .faqs_category .faqs_questions_lists .question_li .chevron_container{
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  transition: .3s;
+}
+
+.faqs_categories_list .faqs_category .faqs_questions_lists .question_li.questionOpened .chevron_container .chevron{
+  rotate: 180deg;
+}
