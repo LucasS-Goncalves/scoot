@@ -44,7 +44,7 @@
   object-position: left;
 }
 
-.signUp .buttons_div{
+.signUp .store_link_div{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,33 +52,33 @@
   z-index: 2;
 }
 
-.signUp .buttons_div .button{
+.signUp .store_link_div .store_link{
   width: 113.57px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: .4rem;
-  border: none;
   border-radius: 3px;
   font-family: var(--space-mono);
   color: var(--dark-navy);
   background-color: var(--light-grey);
+  text-decoration: none;
 }
 
-.signUp .buttons_div .button p {
+.signUp .store_link_div .store_link p {
   font-size: .8rem;
   line-height: 16px;
   text-align: start;
 }
 
-.signUp .buttons_div .button p span{
+.signUp .store_link_div .store_link p span{
   font-size: .5rem;
   letter-spacing: -.4px;
 }
 
-.signUp .buttons_div .button .apple_logo,
-.signUp .buttons_div .button .appStore-logo{
+.signUp .store_link_div .store_link .apple_logo,
+.signUp .store_link_div .store_link .appStore-logo{
   width: 22px;
 }
 
@@ -176,7 +176,7 @@
     text-align: start;
   }
 
-  .signUp .buttons_div .button,
+  .signUp .store_link_div .store_link,
   .links .logo_links_container .logo,
   .links .socialMedias_list .socialMedia a,
   .links .socialMedias_list .socialMedia a:hover svg path,
