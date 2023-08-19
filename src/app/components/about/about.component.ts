@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-about',
@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
-  questionOpened = false;
+  @ViewChild('question', {static: false}) question!: ElementRef<HTMLLIElement>;
 
   values = [
     {
@@ -74,7 +74,7 @@ export class AboutComponent {
 
   ]
 
-  openQuestion(){
-    this.questionOpened = !this.questionOpened;
+  openQuestion(question: HTMLLIElement){
+    question.classList.toggle('questionOpened');
   }
 }

@@ -61,6 +61,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 0;
+  transition: .3s;
 }
 
 .faqs_categories_list .faqs_category .faqs_questions_lists .question_li.questionOpened .faqs_texts{
@@ -85,10 +86,12 @@
   color: var(--dark-navy);
   height: 0;
   visibility: hidden;
+  overflow: hidden;
+  transition: .3s;
 }
 
 .faqs_categories_list .faqs_category .faqs_questions_lists .question_li.questionOpened .faqs_texts .faqs_answer{
-  height: auto;
+  height: 175px;
   visibility: visible;
 }
 
@@ -138,6 +141,11 @@
     font-size: 1.5rem;
     line-height: 28px;
     letter-spacing: -1.07px;
+  }
+
+  .faqs_categories_list .faqs_category .faqs_questions_lists .question_li.questionOpened .faqs_texts .faqs_answer{
+    height: 85px;
+    visibility: visible;
   }
 
   .faqs_categories_list .faqs_category .faqs_questions_lists .question_li .chevron_container{
