@@ -70,7 +70,7 @@
   position: absolute;
   width: 340px;
   height: 148px;
-  top: 53%;
+  top: 42%;
   right: -32px;
   transition: .3s;
 }
@@ -84,7 +84,7 @@
 
 .characteristics_list .characteristic:nth-child(even) .characteristic_img_container .arrow_div{
   position: absolute;
-  width: 250px;
+  width: 340px;
   height: 148px;
   top: 0%;
   left: -32px;
@@ -137,7 +137,7 @@
 
   .characteristics_list .characteristic:nth-child(odd) .characteristic_img_container .arrow_div{
     width: 734px;
-    top: 68%;
+    top: 58%;
     right: -161px;
   }
 
@@ -160,6 +160,7 @@
 
   .characteristics_list .characteristic:nth-child(even) .characteristic_img_container .arrow_div{
     width: 370px;
+    left: -182px;
   }
 
   .characteristics_list .characteristic:nth-child(even) .ball_div{
