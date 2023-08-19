@@ -5,7 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './about.component.html',
   styleUrls: [
     './about.component.css',
-    './styles/main-img-section.css'
+    './styles/main-img-section.css',
+    './styles/characteristics-section.css'
   ]
 })
 export class AboutComponent {
