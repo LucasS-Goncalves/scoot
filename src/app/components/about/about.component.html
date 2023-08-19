@@ -61,4 +61,31 @@
       </li>
     </ul>
   </section>
+
+  <section class="values_section">
+    <h2 class="values_section_title">
+      Our values
+    </h2>
+    <ul class="values_list">
+      <li class="value" *ngFor="let value of values">
+
+        <div class="value_img_container">
+          <img [src]="value.img" alt="" class="value_img">
+          <div class="number">
+            {{value.number}}
+          </div>
+        </div>
+
+        <article class="value_info">
+          <h3 class="value_title">
+            {{value.title}}
+          </h3>
+          <p class="value_description">
+            {{value.description}}
+          </p>
+        </article>
+
+      </li>
+    </ul>
+  </section>
 </main>
