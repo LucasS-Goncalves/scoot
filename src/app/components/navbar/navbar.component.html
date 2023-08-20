@@ -10,9 +10,9 @@
   </div>
   <nav class="nav">
     <ul class="listOfLinks">
-      <a class="link" [routerLink]="['about']">About</a>
-      <a class="link" [routerLink]="['locations']">Location</a>
-      <a class="link" [routerLink]="['careers']">Careers</a>
+      <a class="link" [routerLink]="['about']" (click)="openedMenu = false">About</a>
+      <a class="link" [routerLink]="['locations']" (click)="openedMenu = false">Location</a>
+      <a class="link" [routerLink]="['careers']" (click)="openedMenu = false">Careers</a>
     </ul>
     <button class="yellow_button" (click)="getScootin()">
       Get Scootin
