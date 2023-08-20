@@ -1,6 +1,22 @@
-<app-navbar class="navbar"></app-navbar>
+<app-navbar class="navbar" (goToDownloadSection)="goToDownloadApp(downloadSection)"></app-navbar>
 <div class="pages_container">
-  <router-outlet></router-outlet>
+  <router-outlet (activate)="listeningToButtonClick($event)"></router-outlet>
 </div>
-
-<app-footer></app-footer>
+<app-footer>
+  <div class="store_link_div" #downloadSection>
+    <a class="store_link" href="https://www.apple.com/br/app-store/" target="_blank">
+      <img src="../../../assets/icons/apple-logo.svg" alt="" class="apple_logo">
+      <p>
+        <span>Available on the</span> <br>
+        AppStore
+      </p>
+    </a>
+    <a class="store_link" href="https://play.google.com" target="_blank">
+      <img src="../../../assets/icons/app-store-logo.svg" alt="" class="appStore_logo">
+      <p>
+        <span>Get it on</span> <br>
+        GooglePlay
+      </p>
+    </a>
+  </div>
+</app-footer>

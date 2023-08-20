@@ -1,4 +1,4 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -9,6 +9,7 @@ export class NavbarComponent {
 
   openedMenu = false;
   innerWidth: any;
+  @Output() goToDownloadSection = new EventEmitter();
 
   @HostListener('window:resize', ['$event'])
   onResize(){
@@ -20,5 +21,9 @@ export class NavbarComponent {
 
   openMenu(){
     this.openedMenu = !this.openedMenu;
+  }
+
+  getScootin(){
+    this.goToDownloadSection.emit();
   }
 }

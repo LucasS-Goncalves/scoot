@@ -8,9 +8,55 @@
   margin-bottom: 8rem;
 }
 
+.store_link_div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .7rem;
+  z-index: 2;
+}
+
+.store_link_div .store_link{
+  width: 113.57px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
+  border-radius: 3px;
+  font-family: var(--space-mono);
+  color: var(--dark-navy);
+  background-color: var(--light-grey);
+  text-decoration: none;
+}
+
+.store_link_div .store_link p {
+  font-size: .8rem;
+  line-height: 16px;
+  text-align: start;
+}
+
+.store_link_div .store_link p span{
+  font-size: .5rem;
+  letter-spacing: -.4px;
+}
+
+.store_link_div .store_link .apple_logo,
+.store_link_div .store_link .appStore-logo{
+  width: 22px;
+}
+
 @media(min-width: 768px){
 
   .pages_container{
     padding-top: 96px;
+  }
+}
+
+@media(min-width: 1200px){
+
+  .store_link_div .store_link{
+    cursor: pointer;
+    transition: .3s;
   }
 }

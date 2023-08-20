@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -11,6 +12,10 @@ import { Component } from '@angular/core';
   ]
 })
 export class HomeComponent {
+
+  constructor(private router: Router){}
+
+  goToDownloadSection = new EventEmitter();
 
   steps = [
     {
@@ -54,4 +59,22 @@ export class HomeComponent {
     },
 
   ]
+
+  getScootin(){
+    this.goToDownloadSection.emit();
+  }
+
+  navigate(index: number){
+    if(index === 0){
+      this.router.navigate(['about'])
+    }
+
+    if(index === 1){
+      this.router.navigate(['locations'])
+    }
+
+    if(index === 2){
+      this.router.navigate(['about'])
+    }
+  }
 }

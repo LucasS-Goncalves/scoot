@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
+import { HomeComponent } from './components/home/home.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'scoot-multi-page';
+
+  @ViewChild('downloadSection', {static: false}) downloadSection!: ElementRef<HTMLDivElement>;
+
+  goToDownloadApp(el: HTMLDivElement){
+    el.scrollIntoView()
+  }
+
+  listeningToButtonClick(componentRef: Component){
+    if(!(componentRef instanceof HomeComponent)){
+      return;
+    }
+
+    const homeComponent: HomeComponent = componentRef;
+    homeComponent.goToDownloadSection.subscribe( () => {
+      this.goToDownloadApp(this.downloadSection.nativeElement);
+    })
+  }
 }

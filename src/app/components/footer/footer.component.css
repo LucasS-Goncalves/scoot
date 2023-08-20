@@ -44,44 +44,6 @@
   object-position: left;
 }
 
-.signUp .store_link_div{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: .7rem;
-  z-index: 2;
-}
-
-.signUp .store_link_div .store_link{
-  width: 113.57px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: .4rem;
-  border-radius: 3px;
-  font-family: var(--space-mono);
-  color: var(--dark-navy);
-  background-color: var(--light-grey);
-  text-decoration: none;
-}
-
-.signUp .store_link_div .store_link p {
-  font-size: .8rem;
-  line-height: 16px;
-  text-align: start;
-}
-
-.signUp .store_link_div .store_link p span{
-  font-size: .5rem;
-  letter-spacing: -.4px;
-}
-
-.signUp .store_link_div .store_link .apple_logo,
-.signUp .store_link_div .store_link .appStore-logo{
-  width: 22px;
-}
-
 .links{
   height: 438px;
   display: flex;
@@ -176,7 +138,6 @@
     text-align: start;
   }
 
-  .signUp .store_link_div .store_link,
   .links .logo_links_container .logo,
   .links .socialMedias_list .socialMedia a,
   .links .socialMedias_list .socialMedia a:hover svg path,

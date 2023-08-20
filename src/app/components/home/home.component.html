@@ -1,4 +1,3 @@
-
 <main class="main">
 
   <section class="main_img_section">
@@ -22,7 +21,7 @@
         locations in each of our cities. Use our app to locate the nearest bike, unlock
         it with a tap, and you’re away!
       </p>
-      <button class="yellow_button">
+      <button class="yellow_button" (click)="getScootin()">
         Get Scootin
       </button>
 
@@ -61,7 +60,7 @@
 
   <section class="benefits_section">
     <ul class="benefits_list">
-      <li class="benefit" *ngFor="let benefit of benefits">
+      <li class="benefit" *ngFor="let benefit of benefits; let i = index">
         <div class="img_container">
           <img [src]="benefit.imgSrc" alt="" class="benefit_img">
           <div class="arrow_div">
@@ -76,7 +75,7 @@
           <p class="benefit_description">
             {{benefit.description}}
           </p>
-          <button class="yellow_button">
+          <button class="yellow_button" (click)="navigate(i)">
             Learn More
           </button>
         </article>

@@ -77,8 +77,8 @@
 .nav .yellow_button{
   width: 192px;
   height: 53px;
-  border: none;
   font-size: .9375rem;
+  border: none;
   font-family: var(--space-mono);
   font-weight: 700;
   line-height: 25px;

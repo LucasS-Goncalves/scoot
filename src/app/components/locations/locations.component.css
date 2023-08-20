@@ -1,6 +1,6 @@
 @keyframes transitionIn{
   from {
-    opacity: 0;
+    opacity: .2;
     transform: rotateX(-10deg);
   }
 
