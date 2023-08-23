@@ -1,27 +1,38 @@
-# ScootMultiPage
+<h1>Scoot multi-page website</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+<h3>//EN//</h3>
 
-## Development server
+<p>This is the Scoot multi-page website (I got this challenge on Frontend Mentor website). This website has 4 pages: home page, about page, location page and careers page. This is a website for a company that offers scooters services through an app. It contains information about the company, how it works and why you should use their services. I learned a lot by building this website, its styles are very unique, and this allowed me to practice key css concepts. I built this project using Angular, HTML and CSS.</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p> I posted this project on my LinkedIn! Check it out here: https://www.linkedin.com/in/lucas-gon%C3%A7alves-3a2662252/ </p>
 
-## Code scaffolding
+<h3>//PT-BR//</h3>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p>Este é o Scoot multi-page website (peguei esse desafio no site do Frontend Mentor). Este site tem 4 páginas: home page, about page, location page and careers page. Este é o site de uma empresa que trabalha com aluguéis de scooters por meio de um aplicativo. Aprendi muito construindo este site, seus estilos são únicos e isso me permitiu praticar conceitos chaves de CSS. Construí este projeto usando Angular, HTML e CSS.
+</p>
 
-## Build
+<p>Também postei esse projeto no meu LinkedIn: https://www.linkedin.com/in/lucas-gon%C3%A7alves-3a2662252/</p>
+<br>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+<h4>layout: 375px</h4>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![m1](https://github.com/LucasS-Goncalves/scoot/assets/122225674/9a7f8ae9-843c-4756-8a38-8f0f1055d56f)
+![m2](https://github.com/LucasS-Goncalves/scoot/assets/122225674/05783746-28ce-4e4e-8878-a536f83a32dc)
+![m3](https://github.com/LucasS-Goncalves/scoot/assets/122225674/4f29ceb7-f256-4e3f-a3fc-fe057c792ed0)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<h4>layout: 768px</h4>
 
-## Further help
+![t2](https://github.com/LucasS-Goncalves/scoot/assets/122225674/b9848fed-d587-4392-991c-b7aceafd7413)
+![t3](https://github.com/LucasS-Goncalves/scoot/assets/122225674/47f65cd9-3b9a-4565-8593-092e7fa161b0)
+![t1](https://github.com/LucasS-Goncalves/scoot/assets/122225674/c5733eae-dece-4aac-ab74-f067fc13d052)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+<h4>layout: 1200px</h4>
+
+![d3](https://github.com/LucasS-Goncalves/scoot/assets/122225674/53262e4a-f797-4258-85a3-67f066c0949b)
+![d1](https://github.com/LucasS-Goncalves/scoot/assets/122225674/0083631c-d5fa-42f1-91d1-bf716f376b2a)
+![d2](https://github.com/LucasS-Goncalves/scoot/assets/122225674/c3f7fbcd-61a2-4846-8909-a9ed6e6a5451)
+
+
