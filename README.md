@@ -20,7 +20,6 @@
 </p>
 
 <p>Também postei esse projeto no meu LinkedIn: https://www.linkedin.com/in/lucas-gon%C3%A7alves-3a2662252/</p>
-<br>
 
 <h3>Como eu organizei o projeto</h3>
 
