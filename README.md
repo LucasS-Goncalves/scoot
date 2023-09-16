@@ -5,6 +5,7 @@
 <p>This is the Scoot multi-page website (I got this challenge on Frontend Mentor website). This website has 4 pages: home page, about page, location page and careers page. This is a website for a company that offers scooters services through an app. It contains information about the company, how it works and why you should use their services. I learned a lot by building this website, its styles are very unique, and this allowed me to practice key css concepts. I built this project using Angular, HTML and CSS.</p>
 
 <p>I posted this project on my LinkedIn! Check it out here: https://www.linkedin.com/in/lucas-gon%C3%A7alves-3a2662252/</p>
+<p>Live demo: https://scoot-swart.vercel.app/</p>
 
 <h3>How I organized the project</h3>
 
@@ -20,6 +21,7 @@
 </p>
 
 <p>Também postei esse projeto no meu LinkedIn: https://www.linkedin.com/in/lucas-gon%C3%A7alves-3a2662252/</p>
+<p>Link do site: https://scoot-swart.vercel.app/</p>
 
 <h3>Como eu organizei o projeto</h3>
 
@@ -28,25 +30,23 @@
 <h3>Principais features do Angular que eu usei</h3>
 
 <p>Este projeto contém navegação, então tive que importar o AppRoutingModule e organizar as rotas. Outros recursos que gosto e usei neste projeto incluem ngFor, property binding e interpolação de string (fortemente usado com ngFor).</p>
+<br>
 
-<h4>layout: 375px</h4>
+<h4>Layout for mobiles: 375px</h4>
 
-![m1](https://github.com/LucasS-Goncalves/scoot/assets/122225674/9a7f8ae9-843c-4756-8a38-8f0f1055d56f)
-![m2](https://github.com/LucasS-Goncalves/scoot/assets/122225674/05783746-28ce-4e4e-8878-a536f83a32dc)
-![m3](https://github.com/LucasS-Goncalves/scoot/assets/122225674/4f29ceb7-f256-4e3f-a3fc-fe057c792ed0)
+![mobile-1](https://github.com/LucasS-Goncalves/coffee-roasters/assets/122225674/aa70b800-d978-45f3-80fa-0321adea9168)
+![mobile-2](https://github.com/LucasS-Goncalves/coffee-roasters/assets/122225674/f82c96d6-da35-4922-8639-82f98e935a22)
+![mobile-3](https://github.com/LucasS-Goncalves/coffee-roasters/assets/122225674/c7c921ea-6938-4cb6-8860-66e01fcae689)
 
+<h4>Layout for tablets: 768px</h4>
 
-<h4>layout: 768px</h4>
+![tablet-1](https://github.com/LucasS-Goncalves/coffee-roasters/assets/122225674/a6e8431b-b97e-4e59-8f03-44e6652adefc)
+![tablet-2](https://github.com/LucasS-Goncalves/coffee-roasters/assets/122225674/e899adc1-08c7-4423-a42f-8ea44cb39927)
 
-![t2](https://github.com/LucasS-Goncalves/scoot/assets/122225674/b9848fed-d587-4392-991c-b7aceafd7413)
-![t3](https://github.com/LucasS-Goncalves/scoot/assets/122225674/47f65cd9-3b9a-4565-8593-092e7fa161b0)
-![t1](https://github.com/LucasS-Goncalves/scoot/assets/122225674/c5733eae-dece-4aac-ab74-f067fc13d052)
+<h4>Layout for laptops/desktops: 1200px</h4>
 
+![desktop-1](https://github.com/LucasS-Goncalves/coffee-roasters/assets/122225674/62f3f2b0-84b2-4bcd-b779-e856ae086d14)
+![desktop-2](https://github.com/LucasS-Goncalves/coffee-roasters/assets/122225674/f6905f15-5329-469c-b22d-907ba8ceed15)
 
-<h4>layout: 1200px</h4>
-
-![d3](https://github.com/LucasS-Goncalves/scoot/assets/122225674/53262e4a-f797-4258-85a3-67f066c0949b)
-![d1](https://github.com/LucasS-Goncalves/scoot/assets/122225674/0083631c-d5fa-42f1-91d1-bf716f376b2a)
-![d2](https://github.com/LucasS-Goncalves/scoot/assets/122225674/c3f7fbcd-61a2-4846-8909-a9ed6e6a5451)
 
 
